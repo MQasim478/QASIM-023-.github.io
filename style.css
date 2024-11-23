@@ -1,0 +1,145 @@
+/* General Reset */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+  }
+  
+  /* Header */
+  .header {
+    background-image: url(laundry-shop-interior-with-seat-washing-machines_258219-267.avif);
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  .call {
+    color: black;
+    text-decoration: none;
+  }
+  .hero h2 {
+    font-size: 28px;
+  }
+  .hero-buttons {
+    margin: 20px 0;
+  }
+  .btn {
+    padding: 10px 20px;
+    background: #fff;
+    border: none;
+    color: #004aad;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .btn-outline {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+  }
+  .discount {
+    margin-top: 10px;
+    background: red;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  /* How It Works */
+  .how-it-works {
+    text-align: center;
+    padding: 30px 10px;
+  }
+  .steps {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+  .step img {
+    width: 60px;
+  }
+  .step p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Services */
+  .services {
+    background: #fff;
+    padding: 30px 10px;
+    text-align: center;
+  }
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  .service-card {
+    background: #a8b6d4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Contact */
+  .contact {
+    background: #004aad;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  .contact a {
+    display: block;
+    color: #fff;
+    margin: 5px 0;
+    text-decoration: none;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background: #f9f9f9;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .testimonial {
+    background: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .footer-links a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  .SFL{
+    background-color: white;
+    opacity: 60%;
+    margin-right: 10px;
+    color: #004aad;
+    cursor: pointer;
+  }
+  .logo{
+    color: #004aad;
+  }
+  
